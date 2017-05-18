@@ -1,0 +1,114 @@
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+
+.cardBackground {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.cardContent {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.numberDisplay {
+  background: white;
+  height: 120px;
+  margin-left: 2px;
+  padding-top: 20px;
+  padding-right: 14.5px;
+  border-style: inset;
+  border-width: 4px;
+  color: black;
+  font-weight: normal;
+  font-size: 3.5em;
+  text-align: right;
+}
+
+.inputPad {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.numberRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.numberButton {
+  background: #428bca;
+  padding: 25px;
+  width: 250px;
+  height: 75px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.15em;
+  text-align: center;
+}
+
+.functionButton {
+  background: #428bca;
+  padding: 25px;
+  width: 250px;
+  height: 75px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.15em;
+  text-align: center;
+}
+
+.inputButton {
+  background: #428bca;
+  padding: 25px;
+  width: 250px;
+  height: 75px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  font-weight: normal;
+}
+
+.functionReturn {
+  background: #454545;
+  padding: 25px;
+  width: 250px;
+  height: 75px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.15em;
+  text-align: center;
+}
+
+#equal {
+  background-color: #f44336;
+}
+
+#clear {
+  font-size: 1.00em;
+}
+
+#ce {
+  font-weight: normal;
+}
+
+#exp {
+  font-weight: normal;
+}
